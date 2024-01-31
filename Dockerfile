@@ -11,8 +11,8 @@ RUN npm install -g http-server
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 5002
 
 # Command to run the HTTP server
-CMD ["http-server", "-p 8080"]
+CMD ["http-server", "-p 5002"]
 
